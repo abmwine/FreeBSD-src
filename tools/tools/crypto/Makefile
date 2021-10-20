@@ -26,12 +26,9 @@
 # SUCH DAMAGE.
 #
 
-<<<<<<< HEAD
 PROGS=	cryptocheck cryptostats \
-=======
-PROGS=	cryptocheck \
->>>>>>> 728a83b4a7e7ba0fac12cc34bcad6e4b046a24a8
 	ubsecstats hifnstats ipsecstats safestats
+
 MAN=
 BINDIR?=	/usr/local/bin
 
