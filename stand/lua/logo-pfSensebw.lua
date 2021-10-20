@@ -30,15 +30,6 @@
 local drawer = require("drawer")
 
 local pfSensebw = {
-"  _____        ",
-" / ____|       ",
-" | |    _   _  ",
-" | |   | | | | ",
-" | |___| |_| | ",
-"  \_____\__, | ",
-"         __/ | ",
-"        |___/  "
-" 
 }
 
 drawer.addLogo("pfSensebw", {
