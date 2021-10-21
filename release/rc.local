@@ -83,16 +83,16 @@ if [ -f /etc/installerconfig ]; then
 fi
 
 msg=$(cat <<EOD
-\ZbCygate New Installation\ZB
 
 Proceed with Cygate new installation?
+
 EOD
 )
 
 if [ ! -f /tmp/buildroom ]; then
 	exec 3>&1
 	dialog --backtitle "Cygate Installer" \
-		--title "Copyright and distribution notice" \
+		--title "New Cygate Installation" \
 		--ok-label "Accept" \
 		--scrollbar --colors \
 		--msgbox "${msg}" 0 0 2>&1 1>&3
